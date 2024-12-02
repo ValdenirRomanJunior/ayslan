@@ -24,29 +24,18 @@ const About = () => {
             </QuestionWrapper>
             <AnswerWrapper open={openAnswer} onClick={handleOpenModalLink}>
                 <h2> Transparência e verdade são os princípios norteadores que fundamentam os 
-                      negócios da Especialista Imóveis!</h2>
-                <p>A Especialista Imóveis começou a ser pensada em 2006 quando seu atual CEO, o 
-                    jornalista Fabio Arantes começou a produzir o primeiro programa de TV especializado 
-                    no ramo imobiliário. O programa Painel Imobiliário apresentava todas as novidades do 
-                    ramo. </p>
-                    <p>Em 2022, o jornalista Fabio Arantes, decide constituir a Especialista Imóveis com o 
-                        objetivo de oferecer um serviço que vai além da venda, onde a consultoria e a 
-                        transparência estão presentes em todas as etapas do negócio.  </p>
-                        <p><strong>Filosofia:</strong> Transparência e verdade são os princípios norteadores que fundamentam os 
-                        negócios da Especialista Imóveis. </p>
-                        <p><strong>Missão:</strong> Construir relações verdadeiras e profissionais.</p>
-                        <p><strong>Valores:</strong>Honestidade, Sinceridade, Transparência e Verdade. </p>
-                        <p><strong>Objetivo:</strong> Ter corretores Especialistas Imóveis em todos os Estados brasileiros.  </p>
-                        <span>ESPECIALISTA IMÓVEIS - CNPJ 48.537.400/0001-67</span>
+                      negócios da Ayslan Camurça Imóveis!</h2>
+
+                <p>Atuante no ramo imobiliário há alguns anos, somos uma empresa especializada na locação e venda de imóveis 
+                    em Quixadá e região, 100% dedicados à credibilidade e transparência. Com alto rigor profissional, contamos
+                     com colaboradores competentes e qualificados para melhor atendê-los. Levamos aos nossos clientes toda praticidade
+                      para organizar e agilizar todos os processos imobiliários. Todas as nossas visitas são acompanhadas, trazendo assim
+                       segurança do início ao fim, tanto no aluguel, quanto na venda. </p>
+                                  
                   
-                   <span style={{display:'flex',alignItems:'center'}}><a  style={{display:'flex',alignItems:'center'}} href="https://www.instagram.com/especialistaimoveisnet/" target="_blank"><SlSocialInstagram /><p style={{padding:'0', marginLeft:'5px',color:'blue'}}>especialistaimoveisnet</p></a></span>
-                   <span style={{display:'flex',alignItems:'center'}}><a  style={{display:'flex',alignItems:'center'}} href="https://www.instagram.com/especialistaimoveis.ro/" target="_blank"><SlSocialInstagram /><p style={{padding:'0', marginLeft:'5px',color:'blue'}}>especialistaimoveis.ro </p></a></span>
-                   <span style={{display:'flex',alignItems:'center'}}><a  style={{display:'flex',alignItems:'center'}} href="https://www.instagram.com/especialistaimoveisgo/" target="_blank"><SlSocialInstagram /><p style={{padding:'0', marginLeft:'5px',color:'blue'}}>especialistaimoveisgo</p></a></span>
-                   <span>especialistaimoveis.net@gmail.com </span>
-                   <span> AV.  Farquar, 3460, SALA B, Pedrinhas, PORTO VELHO, RONDÔNIA </span>
-                   <span>CRECI 4058F </span>
-                   <span>62 991967206 – Goiás </span>
-                   <span>69 999508521  - Rondônia </span>
+                   <span> Rua José de Alencar, 355, Centro, Quixadá CE </span>
+                   <span>CRECI CE 17472</span>
+                   <span>(88) 9628-1111</span>               
             </AnswerWrapper>
    
            

@@ -19,7 +19,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
 
     .title-search-container{
         position: absolute;
-        top:70%;
+        top:60%;
         left:50%;
         transform: translate(-50%, -50%);
         width:100%;

@@ -31,7 +31,7 @@ export const TextWrapper = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    margin-top:5px;
+    margin-top:15px;
   
 
     .copy-nameBusiness{

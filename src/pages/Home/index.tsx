@@ -1,16 +1,16 @@
 import Header from "../../components/Header";
 import { ContactModalContainerHome, HomeBannerWrapper, HomeBodyContainer, SessionAgent, SessionBannersBottom, SessionCards, SessionContact, SessionFooter, SessionQuestions, SessionSlides, SessionSlidesWrapper} from "./styles";
-import principalBanner from '../../assets/images/banner-principal-1-fabio.png';
-import principalBanner2 from '../../assets/images/banner-principal-2-fabio.png';
-import principalBannerMobile from '../../assets/images/banner-1-mobile.jpeg';
-import principalBanner2Mobile from '../../assets/images/banner-principal-2-fabio-mobile.png';
+import principalBanner from '../../assets/images/banner-principal-1-ayslan.png';
+import principalBanner2 from '../../assets/images/banner-principal-2-ayslan.png';
+import principalBannerMobile from '../../assets/images/banner-principal-2-ayslan-mobile.png';
+import principalBanner2Mobile from '../../assets/images/banner-principal-1-ayslan-mobile.png';
 import PseudoSearch from "../../components/PseudoSearch";
 import CardPropertyHome from "../../components/CardPropertyHome";
 import HouseImage from '../../assets/images/house-image.jpg';
 import RightHouseImage from '../../assets/images/right-image-house.svg';
-import logoHome from '../../assets/images/logo-fabio-grande-vector.svg';
+import logoHome from '../../assets/images/logo-contorno.png';
 import {FaArrowRight, FaQuoteLeft} from 'react-icons/fa';
-import AgentImage from '../../assets/images/perfil-corretor.png';
+import AgentImage from '../../assets/images/fundo-preto-perfil.png';
 import {BsArrowRight} from 'react-icons/bs';
 import Question from "../../components/Question";
 import Footer from "../../components/Footer";
@@ -83,8 +83,7 @@ const Home = () => {
       }
    
    
-     
-   
+        
     return (
         <ErrorBoundary FallbackComponent={ErrorHandler}>
         <HomeBodyContainer>
@@ -189,7 +188,7 @@ const Home = () => {
             <div className="text-agent-wrapper-home">
             <FaQuoteLeft className="quote-icon-agent-home"/>
             <h3>Oportunidades imobiliárias que transformam vidas e negócios.</h3>
-            <p>CEO-Fábio Márcio Arantes Dantas</p>
+            <p>CEO - Ayslan Camurça</p>
             </div>
 
             
@@ -204,7 +203,7 @@ const Home = () => {
               
             </div>
             </div>
-            <p className="agent-name">CEO-Fábio Márcio Arantes Dantas</p>
+            <p className="agent-name">CEO- Ayslan Camurça</p>
             </div> 
           
            </SessionAgent>
@@ -219,9 +218,7 @@ const Home = () => {
                         <span className="second-text-image-banner">Anuncie seu imóvel</span>
                         <a href="#session-contact"><button className="button-banner-bottom">Contactar</button></a>
                         <BsArrowRight className="icon-image-banner-bottom-home"/>
-                    </div></a>
-
-             
+                    </div></a>           
                 </div>          
                 
             </SessionBannersBottom>

@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
     width:100%;
-    height:60px;
+    height:45px;
     background-color: ${({theme}) => theme.colors.background};
     display: flex;
     align-items: center;
@@ -13,21 +13,30 @@ export const HeaderContainer = styled.header`
     position: relative;
     top:0;
     left:0;
+
+       @media screen and (min-width: 1000px){
+        height:55px;
+
+        }
   
      
 `
 
 export const HeaderWrapper = styled.div`
     width:92%;
-    height: 60px;
+    height: 45px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    .link-img-wrapper{
+        display: flex;
+        align-items: center;
+    }
       .logo{
-        width:80px !important;
-        height:60px !important;
+        width:30px !important;
+        height:30px !important;
         margin-left:8px;
         object-fit:contain;
         
@@ -64,10 +73,11 @@ export const HeaderWrapper = styled.div`
 
     @media screen and (min-width: 1000px){
         width:90%;
+        height:55px;
 
         .logo{
-            width:90px !important;
-            height:60px !important;
+            width:35px !important;
+            height:35px !important;
             margin-left:8px;
             object-fit:contain;
             
