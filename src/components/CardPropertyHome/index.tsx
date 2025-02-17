@@ -79,7 +79,7 @@ const CardPropertyHome = (props: { url: string})=>{
 
 
     const getProperties = async () => {    
-        const data= await getPropertiesHome('localhost');  
+        const data= await getPropertiesHome('ayslancamurcaimoveis.netlify.app');  
      
         if(data){     
             setPage(data.data as Property[]);
